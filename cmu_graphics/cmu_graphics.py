@@ -199,7 +199,7 @@ class App(object):
                 self.isCtrlKeyDown)
         )
 
-    def __init__(self, width=400, height=400, title=None):
+    def __init__(self, width=1200, height=700, title=None):
         self.userGlobals = __main__.__dict__
         self.userGlobals['app'] = self
         if title is None:
